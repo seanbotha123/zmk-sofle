@@ -25,7 +25,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: ;, s: ':'}
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
   - A
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - P
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
