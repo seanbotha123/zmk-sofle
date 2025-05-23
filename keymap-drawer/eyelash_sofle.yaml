@@ -19,7 +19,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, type: held}
   - $$mdi:arrow-down-bold$$
   - Y
   - U
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - '2'
+  - {t: '2', type: held}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -148,8 +148,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER0, h: toggle}
-  - {t: LAYER0, h: toggle}
+  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
