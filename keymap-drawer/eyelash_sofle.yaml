@@ -55,7 +55,7 @@ layers:
   - {t: '=', s: +}
   - $$mdi:volume-off$$
   - '&td_bracket_left'
-  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - function
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
