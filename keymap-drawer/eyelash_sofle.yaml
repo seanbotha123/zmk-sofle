@@ -187,8 +187,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&aim AIM_ON'
-  - '&aim AIM_OFF'
+  - '&anti_idle AIM_ON'
+  - '&anti_idle AIM_OFF'
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
