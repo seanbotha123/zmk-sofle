@@ -70,6 +70,13 @@
     };
 
     behaviors {
+        anti_idle {
+            compatible = "zmk,anti-idle-generic";
+            interval-ms = <60000>; // How often to send actions (ms)
+            bindings = <&mmv MOVE_DOWN &mmv MOVE_UP>; // Actions to perform (e.g., mouse move)
+            tap_ms = <40>;   // Duration of each action (ms)
+            wait_ms = <200>; // Delay between actions (ms)
+        };
     };
 
     keymap {
